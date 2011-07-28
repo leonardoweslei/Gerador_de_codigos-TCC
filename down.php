@@ -1,5 +1,4 @@
 <?php
-
 require('class/zip.lib.php');
 $zipfile=new zipfile();
 $zipfile->addDirContent($_GET['pasta'],1);

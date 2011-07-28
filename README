@@ -1,0 +1,44 @@
+1 Acesse a pasta do projeto pelo browser.
+2 Preencha os dados que referenciam o banco de dados desejado.
+Exemplo:
+Host/IP:localhost
+Usuário:uruario
+Senha:123
+Database:bd_teste
+3 Caso os dados estejam corretos, aparecerá uma tela com a lista de tabelas, uma lista de tipos de arquivos à gerar, um dicionário de nomes, um dicionário de dados e os dados do projeto.
+4 Na lista de tabelas seleciona-se as tabelas para as quais serão gerados os arquivos.
+5 Os tipos de arquivos que podem ser gerados são:
+Formulários
+	Formulários que interagem com as classes geradas gerados de acordo com o tipo de dados dos campos das tabelas do banco de dados ou dos itens descritos no dicionario de tipos de dados.
+	Os tipos suportados são:
+	img - upload de imagem
+	date - data
+	datetime - data e hora
+	dateh - data oculta
+	hidden - campo oculto
+	datetimeh - data e hora oculta
+	music - upload de arquivos de áudio
+	video - upload de arquivos de vídeo
+	mes - meses do ano em PT-BR
+	estado - estados do Brasil
+	html - wysiwyg editor(editor de texto)
+	money - campo com formatação para moeda
+	password - campo de senha
+	cep - campo com formatação para CEP
+	tel - campo com formatação para telefone
+	cpf - campo com formatação e validação de CPF
+	cnpj - campo com formatação e validação para CNPJ
+	text - campo de texto
+	textarea - campo de texto livre
+	int - campo que só aceita números como entrada
+	email - campo com validação de e-mail
+Classes
+	classes geradas que fazem um DAO das tabelas do banco de dados usando uma variação classe database*
+Documentos
+	Gera um documento XMI compatível com o umbrello de acordo com as classes geradas
+Existe ainda a possibilidade de Gerar todos os formulários em uma pasta separada(para melhor compreensão da estrutura do projeto) e gerar o diagrama xmi do banco de dados (um diagrama que traz os possíveis relacionamentos entre as classes)
+6 No dicionario de nomes coloca-se o nome original do campo, em seguida um "=", seguido de seu valor a ser substituído e por final uma ",". Ex.: id=Código,
+7 O dicionario de tipos de dados segue o mesmo raciocínio do dicionario de nomes porém quando se quer que um valor seja tratado como é representado pelo MySQL deixa-se o campo vazio. Ex.: 'id=,' ou 'id=hidden,'
+8 Preencha o nome do projeto e o nome do autor do projeto para que esses sejam incluídos nas classes geradas
+9 clique no botão gerar e aguarde. Após o termino da operação aparecerá uma mensagem com o texto "Geração concluída!" e abaixo os logs do processo seguido de um link para download dos arquivos gerados zipados com o nome do projeto
+*Criada por Glauber costa<glaubercosta@gmail.com>
