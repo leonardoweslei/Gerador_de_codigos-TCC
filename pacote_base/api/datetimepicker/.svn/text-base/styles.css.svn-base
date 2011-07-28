@@ -1,0 +1,6 @@
+p, ol {font-family:verdana}
+ol li {font-size:0.9em}
+ol li i {font-size:0.8em}
+p.smallbottom {font-size:0.8em}
+p.disclaimer {font-size: 0.7em;}
+p.disclaimer b {color:red}

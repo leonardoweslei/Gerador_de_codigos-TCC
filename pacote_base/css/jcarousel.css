@@ -1,0 +1,49 @@
+    #jCarouselLiteDemo .carousel button {
+        float: left;
+    }
+    #jCarouselLiteDemo .carousel a.prev, #jCarouselLiteDemo .carousel a.next {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 143px;
+        text-decoration: none;
+        background: url("../images/imageNavLeft.gif") left 60px no-repeat;
+    }
+	#jCarouselLiteDemo .carousel a.next {
+		background: url("../images/imageNavRight.gif") right 60px no-repeat;
+	}
+	#jCarouselLiteDemo .carousel a.next:hover {
+		background-image: url("../images/imageNavRightHover.gif");
+	}
+	#jCarouselLiteDemo .carousel a.prev:hover {
+		background-image: url("../images/imageNavLeftHover.gif");
+	}    
+	#jCarouselLiteDemo .carousel a:hover, #jCarouselLiteDemo .carousel a:active {
+		border: none;
+		outline: none;
+	}
+	#jCarouselLiteDemo .carousel ul, #jCarouselLiteDemo .carousel div {
+		margin: 0;
+		height: 400px;
+		float:left;
+	}
+	#jCarouselLiteDemo .carousel li img,
+	#jCarouselLiteDemo .widget img {
+		cursor: pointer;
+	}
+	#jCarouselLiteDemo .carousel li{
+		margin-left: 2px;
+		margin-right: 2px;
+		overflow:hidden;
+		height: 400px;
+		width: 300px;
+	}
+	#jCarouselLiteDemo .carousel a
+	{
+		text-align:center;
+		font:bold;
+		text-decoration: none;
+		padding:3px;
+		background:#014687;
+		color:#FFF;
+	}
