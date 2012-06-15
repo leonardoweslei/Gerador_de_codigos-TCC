@@ -33,7 +33,7 @@ Formulários
 	int - campo que só aceita números como entrada
 	email - campo com validação de e-mail
 Classes
-	classes geradas que fazem um DAO das tabelas do banco de dados usando uma variação classe database*
+	classes geradas que fazem um DAO das tabelas do banco de dados usando uma variação classe database(Criada por Glauber costa<glaubercosta@gmail.com>)
 Documentos
 	Gera um documento XMI compatível com o umbrello de acordo com as classes geradas
 Existe ainda a possibilidade de Gerar todos os formulários em uma pasta separada(para melhor compreensão da estrutura do projeto) e gerar o diagrama xmi do banco de dados (um diagrama que traz os possíveis relacionamentos entre as classes)
@@ -41,4 +41,3 @@ Existe ainda a possibilidade de Gerar todos os formulários em uma pasta separad
 7 O dicionario de tipos de dados segue o mesmo raciocínio do dicionario de nomes porém quando se quer que um valor seja tratado como é representado pelo MySQL deixa-se o campo vazio. Ex.: 'id=,' ou 'id=hidden,'
 8 Preencha o nome do projeto e o nome do autor do projeto para que esses sejam incluídos nas classes geradas
 9 clique no botão gerar e aguarde. Após o termino da operação aparecerá uma mensagem com o texto "Geração concluída!" e abaixo os logs do processo seguido de um link para download dos arquivos gerados zipados com o nome do projeto
-*Criada por Glauber costa<glaubercosta@gmail.com>
